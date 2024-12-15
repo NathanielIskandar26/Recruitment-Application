@@ -31,17 +31,27 @@ Also, this application will not run without the proper database set up and its c
 
 3. Add Your Database Credentials:
 Open the .env file and add the following lines, replacing the values with your own PostgreSQL database credentials:
+
 hostname="localhost"
+
 database="your_database_name"
+
 my_username="your_postgres_username"
+
 pwd="your_postgres_password"
+
 port_id=5432
 
 Example:
+
 hostname="localhost"
+
 database="candidates_database"
+
 my_username="postgres"
+
 pwd="your_password_here"
+
 port_id=5432
 
 4. Save the File:
