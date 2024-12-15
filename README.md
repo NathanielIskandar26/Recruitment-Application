@@ -30,32 +30,16 @@ Also, this application will not run without the proper database set up and its c
 2. In the root directory of the project (where the .py file is located), create a new file named db_cred.env
 
 3. Add Your Database Credentials:
-Open the .env file and add the following lines, replacing the values with your own PostgreSQL database credentials:
+Open the .env file and add the following lines, replacing the values with your own PostgreSQL database credentials, for example:
+hostname="localhost"  
+database="your_database_name"  
+my_username="your_postgres_username"  
+pwd="your_postgres_password"  
+port_id=5432  
 
-hostname="localhost"
 
-database="your_database_name"
-
-my_username="your_postgres_username"
-
-pwd="your_postgres_password"
-
-port_id=5432
-
-Example:
-
-hostname="localhost"
-
-database="candidates_database"
-
-my_username="postgres"
-
-pwd="your_password_here"
-
-port_id=5432
-
-4. Save the File:
+5. Save the File:
 Save the .env file in the root directory of the project.
 
-5. Run the App:
+6. Run the App:
 Now, you should be able to run the application without any issues. The app will use the credentials you provided in the .env file to connect to the PostgreSQL database, try adding some data into it!
