@@ -30,13 +30,13 @@ Also, this application will not run without the proper database set up and its c
 2. In the root directory of the project (where the .py file is located), create a new file named db_cred.env
 
 3. Add Your Database Credentials:
-Open the .env file and add the following lines, replacing the values with your own PostgreSQL database credentials, for example:
+Open the .env file and add the following lines, replacing the values with your own PostgreSQL database credentials, for example:  
+
 hostname="localhost"  
 database="your_database_name"  
 my_username="your_postgres_username"  
 pwd="your_postgres_password"  
 port_id=5432  
-
 
 5. Save the File:
 Save the .env file in the root directory of the project.
